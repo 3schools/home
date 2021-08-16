@@ -1,15 +1,9 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('quiz-generator').then((cache) => cache.addAll([
-      'index.html',
-      'v1.html',
-      'quiz-generator.png',
-      'index.js',
-      'style.css',
-      'quiz1.jpg',
-      'quiz2.jpg',
-      'quiz3.jpg',
-      'quiz4.jpg',
+      'https://shortenersurl.blogspot.com' ,
+      'https://raw.githubusercontent.com/3schools/3schools/main/3schools.png',
+      'https://raw.githubusercontent.com/3schools/home/main/index.js',
     ])),
   );
 });

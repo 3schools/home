@@ -1,15 +1,3 @@
-const images = ['quiz1', 'quiz2', 'quiz3', 'quiz4'];
-const imgElem = document.querySelector('#ask3schools');
-
-function randomValueFromArray(array) {
-  const randomNo = Math.floor(Math.random() * array.length);
-  return array[randomNo];
-}
-
-setInterval(() => {
-  const randomChoice = randomValueFromArray(images);
-  imgElem.src = `${randomChoice}.jpg`;
-}, 1000);
 
 // Register service worker to control making site work offline
 

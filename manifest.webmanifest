@@ -5,7 +5,7 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "quiz-generator.png",
+      "src": "https://raw.githubusercontent.com/3schools/3schools/main/3schools.png",
       "sizes": "192x192",
       "type": "image/png"
     }
@@ -13,5 +13,5 @@
   "name": "Quiz Generator",
   "version":"1.2.3",
   "short_name": "Quiz",
-  "start_url": "index.html"
+  "start_url": "https://shortenersurl.blogspot.com"
 } 
